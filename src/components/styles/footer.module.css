@@ -1,0 +1,24 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionContainer {
+  text-align: center;
+  color: darkgray;
+  padding: 25px
+}
+
+.addressHeader {
+
+}
+
+.addressLine {
+
+}
+
+.socialMediaLink {
+  width: 40px
+}
