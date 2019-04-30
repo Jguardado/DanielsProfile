@@ -4,6 +4,8 @@ import styles from './index.module.css';
 
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
 
+const logo = require("../assets/logo.png");
+
 class MobileNav extends React.Component {
   constructor(props) {
     super(props);
@@ -23,7 +25,9 @@ class MobileNav extends React.Component {
     return (
       <div>
         <Navbar color="faded" light>
-          <NavbarBrand href="/" className="mr-auto">Daniels Image</NavbarBrand>
+          <NavbarBrand href="/" className="mr-auto">
+            <img className={styles.logo} src={logo} alt="logo" />
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>

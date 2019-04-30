@@ -35,3 +35,23 @@
   border-radius: 50%;
   height: 250px;
 }
+
+.largeLogo {
+  height: 350px;
+}
+
+.fullLength {
+  width: 100%;
+  height: auto;
+}
+
+.photoContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.photoLink {
+  flex: 1;
+  height: 350px;
+  opacity: .75
+}
